@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (time == 0) {
-                    Toast.makeText(MainActivity.this, "生无可恋！", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, "生无可恋！", Toast.LENGTH_SHORT).show();
                 } else {
                     time--;
                     tvLife.setText("蛤蛤，江主席的生命变成了：" + time + "秒");
